@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>Primer parrafo corto</h1>
+        <h2>Segundo parrafo corto</h2>
+    </section>
+    <nav>
+        <h2>Grupo de elementos de navegacion</h2>
+        <ul>
+            <li><a href="https://www.yahoo.com/">YAHOO</a></li>
+            <li><a href="https://www.youtube.com/">YOUTUBE</a></li>
+            <li><a href="https://www.google.com/">GOOGLE</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <nav>
+        <a href="/HTML/Ejer01HTMLBasico/OtraPagEnMismaVentana.html">Enlace a otra pagina desde la misma pestaña</a>
+        <a href="/HTML/Ejer01HTMLBasico/OtraPagEnDistintaPestaña.html" target="_blank">Enlace a otra pagina en otra pestaña</a>
+        <a href="#ancla">Ancla a otro punto de esta pagina</a>
+    </nav>
+    <hr>
+    <section>
+        <h1>Cuerpo principal del contenido</h1>
+        <p>La etiqueta main es en HTML5 una etiqueta semantica. Esto quiere decir que tiene que ver con el significado de lo contenido dentro de ella. Define el contenido principal de la pagina. Unicamente puede haber una sola etiqueta como esta en todo el documento.</p>
+        <p>El contenido escrito aqui dentro no se repite en el resto del sitio(todo lo contrario a los encabezados de pagina, los menues de navegacion y los pie de pagina). Es usado por buscadores para indexar.<br>Conviene usar aqui textos que ayuden a encontrar la pagina luego de procesos de indexación de los buscadores</p>
+    <h3>Seccion etiquetas semanticas estructurales mas importantes:</h3>
+    <ul>
+        <li>HEADER</li>
+        <li>FOOTER</li>
+        <li>SECTION</li>
+        <li>ARTICLE</li>
+        <li>NAV</li>
+        <li>ADRESS</li>
+    </ul>
+    <p>Las etiquetas semanticas estructurales estan relacionadas directamente con el significado del contenido y no con los estilos ni las posiciones dentro del documento.</p>
+    <h3>Reglas para etiquetas semánticas:</h3>
+    <ul>
+        <li>Los distintos tipos de contenido se pueden asocias a las etiquetas SECTION</li>
+        <li>Las unidades de contenido se asocian a las etiquetas ARTICLE. Osea que un SECTION anida multiples ARTICLES</li>
+        <li>Las etiquetas HEADER y FOOTER pueden ser anidadas dentro de otras HEADER o FOOTER. Osea un FOOTER podria anidar otro HEADER y FOOTER</li>
+        <li>La etiqueta NAV debe ser unica en el documento y corresponde a los elementos de navegación del documento</li>
+        <li>Reservar etiqueta h1 para usar dentro de etiquetas top level como main, header o footer</li>
+    </ul>
+    </section>
+    <section>
+        <h3>Section de imagenes</h3>
+        <p>En esta seccion mostraremos imagenes identificativas de nuestro sitio <br> La siguiente imagen esta insertada en tamaño natural</p>
+        <img src="/HTML/Ejer01HTMLBasico/gatito.jpg" alt="FOTONATURAL">
+        <p>La misma imagen, gatito, con distintos atributos width: <br> De acuerdo a la dimension de la imagen, solo la primera no pixelara. <br> Cada elemento img se ubica al lado de la anterior hasta completar el ancho de la ventana activa(view port). <br> Todas las siguientes imagenes se veran deformadas por haber definido doble parametro de estilo(ancho y alto)</p>
+        <img src="/HTML/Ejer01HTMLBasico/gatito.jpg" alt="GATITODEFORMADO" style="width: 75px ; height: 400px">
+        <img src="/HTML/Ejer01HTMLBasico/gatito.jpg" alt="GATITODEFORMADO" style="width: 100px; height: 400px">
+        <img src="/HTML/Ejer01HTMLBasico/gatito.jpg" alt="GATITODEFORMADO" style="width: 150px; height: 400px">
+        <img src="/HTML/Ejer01HTMLBasico/gatito.jpg" alt="GATITODEFORMADO" style="width: 200px; height: 400px">
+        <img src="/HTML/Ejer01HTMLBasico/gatito.jpg" alt="GATITODEFORMADO" style="width: 250px; height: 400px">
+    </section>
+    <hr>
+    <section>
+        <h4>Section de video</h4>
+        <video src="/HTML/Ejer01HTMLBasico/Sand - 73847.mp4" autoplay controls style="width: 400px; height: 200px;"></video>
+    </section>
+    <section>
+        <h4>Anclajes</h4>
+        <p><a name="ancla">Punto de anclado</a></p>
+    </section>
+    <address>
+        <h1>Datos del alumno</h1>
+        <p>Alexis Artopoulos - Belgrano <br> <a href="alexisa.artopoulos@comunidad.ub.edu.ar">alexisa.artopoulos@comunidad.ub.edu.ar</a></p>
+    </address>
+    
+
+</body>
+</html>
