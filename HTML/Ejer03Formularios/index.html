@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Formulario para entradas sin validación</h1>
-    <form action="/HTML/Ejer03Formularios/respuestaFormularios.html" method="GET">
+    <form action="/HTML/Ejer03Formularios/respuestaFormularios.html" method="GET" target="_blank">
         <ul>
         <br>
         <li>
@@ -38,7 +38,7 @@
         <li>
             <label for="text">Campo de solo lectura:</label>
             <br>
-            <input type="text" readonly value="valueSoloLectura"name="campoSoloLectura">
+            <input type="text" readonly name="campoSoloLectura">
         </li>
         <br>
         <li>
@@ -107,43 +107,43 @@
             <li>
                 <label for="">Comentario:</label>
                 <br>
-                <input type="text" maxlength="150" value="comentario" required>
+                <input type="text" maxlength="150" required>
             </li>
             <br>
             <li>
                 <label for="">Email:</label>
                 <br>
-                <input type="email" placeholder="texto@texto" value="mail" required>
+                <input type="email" placeholder="texto@texto" required>
             </li>
             <br>
             <li>
                 <label for="">Numero entero limitado:</label>
                 <br>
-                <input type="number" min="1" max="10" value="numEntero">
+                <input type="number" min="1" max="10" value="numEntero" required>
                 </li>
             <br>
             <li>
                 <label for="">Numero decimal</label>
                 <br>
-                <input type="number" step="0.1" value="numDecimal">
+                <input type="number" step="0.1" value="numDecimal" required>
             </li>
             <br>
             <li>
                 <label for="">URL</label>
                 <br>
-                <input type="url" value="URL">
+                <input type="url" required>
             </li>
             <br>
             <li>
                 <label for="">Pattern de validacion</label>
                 <br>
-                <input type="text" pattern="[a-z]{3}[1-2]{2}" value="pattern">
+                <input type="text" pattern="[a-z]{3}[1-2]{2}" required>
             </li>
             <br>
             <li>
                 <label for="">Pattern de validacion</label>
                 <br>
-                <input type="tel" placeholder="(+54)11 1111-1111" value="patternTEL">
+                <input type="tel" placeholder="(+54)11 1111-1111" required>
             </li>
             <br>
             <li><input type="submit" value="Enviar formulario con validacion"></li>
