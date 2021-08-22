@@ -1,0 +1,30 @@
+#divContenedor{
+    background-color: royalblue;
+    border: solid 2px rgb(25, 39, 82);
+    width: 450px;
+    height: 500px;
+    opacity: 0.5;
+    margin: 0 auto;
+    padding: 20px 10px 30px 20px;
+
+}
+
+
+#insideDiv{
+    display: flex;
+    border-radius: 20px 0px 0px 0px;
+    border: 2px solid red;
+    width: 350px;
+    height: 400px;
+    padding: 20px 10px 30px 20px;
+    background-image: url("/CSS/CSSparte1/CSS05BackgroundFijo/611fbc189cf9e_1004x565.jpg");
+    background-repeat: no-repeat;
+    background-attachment:inherit;
+    background-size: 300px 300px;
+    justify-content: center;
+    overflow-y: scroll;
+    background-color: white;
+    opacity: 0.5;
+    box-sizing: border-box;
+
+}

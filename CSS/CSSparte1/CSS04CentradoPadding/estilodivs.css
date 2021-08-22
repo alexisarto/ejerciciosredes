@@ -1,0 +1,25 @@
+body{
+    align-items: center;
+}
+
+div{
+    width: 50vw;
+    margin: 0 auto;
+}
+p{
+    margin: 0px;
+
+}
+#div1{
+    background-color:cornflowerblue;
+}
+#div2{
+    background-color:rgb(77, 155, 46);
+    padding: 0px 150px;
+}
+#div3{
+    box-sizing:border-box;
+    padding: 0px 150px;
+    background-color: black;
+    color: white;
+}
