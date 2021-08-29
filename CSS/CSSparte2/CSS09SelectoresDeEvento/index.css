@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#contenedor{
+    height: 100%;
+    background-color: aqua;
+    width: 80%;
+}
+.overDiv:active{
+    background-color: orange;
+    color: darkblue;
+}
+.opciones{
+    display: flex;
+    margin: 20px;
+}
+button{
+    background-color: grey;
+    color: black;
+    border: 1px solid black;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px 10px;
+    
+}
+input{
+    height: 20px;
+}
+input:focus{
+    background-color: black;
+    color: white;
+}
+button:hover{
+background-color:blue;
+color: white;
+}
+.imagenes{
+    display: flex;
+}
+.cuadradoImagen{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+.cuadradoImagen:active{
+    width: fit-content;
+    height: fit-content;
+}
+.cuadradoImagen:active>img{
+    width: 100%;
+    height: 100%;
+}
+
+
